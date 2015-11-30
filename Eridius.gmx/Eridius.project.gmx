@@ -5,9 +5,47 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprites name="Player">
+      <sprites name="Archer">
+        <sprite>sprites\Archer_Attack_Down</sprite>
+        <sprite>sprites\Archer_Attack_Left</sprite>
+        <sprite>sprites\Archer_Attack_Right</sprite>
+        <sprite>sprites\Archer_Attack_Up</sprite>
+        <sprite>sprites\Archer_Idle_Down</sprite>
+        <sprite>sprites\Archer_Idle_Left</sprite>
+        <sprite>sprites\Archer_Idle_Right</sprite>
+        <sprite>sprites\Archer_Idle_Up</sprite>
+        <sprite>sprites\Archer_Walk_Down</sprite>
+        <sprite>sprites\Archer_Walk_Left</sprite>
+        <sprite>sprites\Archer_Walk_Right</sprite>
+        <sprite>sprites\Archer_Walk_Up</sprite>
+      </sprites>
+      <sprite>sprites\Spri_Arrow</sprite>
+    </sprites>
+    <sprite>sprites\Block</sprite>
+    <sprite>sprites\Cursor</sprite>
+    <sprite>sprites\Aim_Area</sprite>
+    <sprite>sprites\sprite15</sprite>
+    <sprite>sprites\Aim_Right</sprite>
+    <sprite>sprites\Aim_Left</sprite>
+    <sprite>sprites\Aim_Down</sprite>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\Player</object>
+    <object>objects\object1</object>
+    <object>objects\Obj_Camera</object>
+    <object>objects\Aim_Down_Area</object>
+    <object>objects\Aim_Up_Area</object>
+    <object>objects\Aim_Right_Area</object>
+    <object>objects\Aim_Left_Area</object>
+    <object>objects\Arrow</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\room0</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
